@@ -1,13 +1,13 @@
 version: '3.8'
 
 services:
-  crypto:
+  stt:
     image: harbor.ceasefire.rid-intrasoft.eu/certh_marketplaces/stt:latest
     labels:
       io.portainer.accesscontrol.teams: /certh
     ports:
       - "28000:28000"
-    networks:
+#    networks:
 #       - nlu_network
 #     depends_on:
 #       - controller
